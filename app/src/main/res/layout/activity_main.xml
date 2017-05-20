@@ -1,0 +1,234 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#36111222">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gravar um Arquivo"
+                android:id="@+id/rec"
+                style="@style/orange"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Criar um novo Arquivo"
+                android:id="@+id/check"
+                android:checked="false" />
+        </LinearLayout>
+
+        <Button
+            style="@style/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parar de Gravar"
+            android:id="@+id/recS"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reproduzir Arquivo"
+            android:id="@+id/read"
+            style="@style/orange"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="C"
+            android:id="@+id/c"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:id="@+id/cs"
+                android:background="#ff000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/button"
+                android:background="#ffffffff"
+                style="?android:attr/borderlessButtonStyle" />
+
+        </LinearLayout>
+
+    <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="D"
+            android:id="@+id/d"
+            android:layout_gravity="bottom"
+        android:background="@drawable/but" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:id="@+id/ds"
+                android:background="#ff000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/button2"
+                android:background="#ffffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="E"
+            android:id="@+id/e"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but" />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="F"
+            android:id="@+id/f"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:id="@+id/fs"
+                android:background="#ff000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/button3"
+                android:background="#ffffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="G"
+            android:id="@+id/g"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:id="@+id/gs"
+                android:background="#ff000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/button4"
+                android:background="#ffffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="A"
+            android:id="@+id/a"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="150dp"
+                android:id="@+id/as"
+                android:background="#ff000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/button5"
+                android:background="#ffffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="B"
+            android:id="@+id/b"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but" />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="200dp"
+            android:text="C"
+            android:id="@+id/c2"
+            android:layout_gravity="bottom"
+            android:background="@drawable/but"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
